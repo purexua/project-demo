@@ -1,0 +1,14 @@
+spring:
+  data:
+    redis:
+      host: 47.99.87.63
+      port: 6379
+      password: 123456
+      timeout: 3000
+      jedis:
+        pool:
+          enabled: true
+          max-active: 8
+          max-wait: 1000 # -1 means no limit
+          max-idle: 8
+          min-idle: 0
